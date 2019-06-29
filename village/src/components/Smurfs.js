@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 import Smurf from './Smurf';
-
+import './component.css'
 class Smurfs extends Component {
   render() {
     return (
-      <div className="Smurfs">
+      <div className="smurf">
         <h1>Smurf Village</h1>
         <ul>
           {this.props.smurfs.map(smurf => {
