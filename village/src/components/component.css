@@ -1,0 +1,58 @@
+form { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+button {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.smurf {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}
+.smurf h1 {
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    color: blue;
+}
+.smurf ul {
+    padding: 0;
+}
+.smurfs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 5px;
+    Border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+h3 {
+    color: palevioletred;
+}
+.smurfItem {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
