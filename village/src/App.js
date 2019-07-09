@@ -29,7 +29,7 @@ class App extends Component {
       });
   }
 
-  updateItems = smurfs => {
+  updateSmurfs = smurfs => {
     this.setState({ smurfs });
   };
   // add any needed code to ensure that the smurfs collection exists on state and it has data coming from the server
@@ -46,7 +46,7 @@ class App extends Component {
           </div>
         </nav>
         <Route exact path='/' render={(props) => <Smurfs {...props} smurfs={this.state.smurfs} />} />
-        <Route exact path='/smurfform' render={(props) => <SmurfForm {...props} smurfs={this.state.smurfs} />} />
+        <Route exact path='/smurfform' render={(props) => <SmurfForm {...props} updateSmurfs={this.updateSmurfs} />} />
       </div>
     );
   }
